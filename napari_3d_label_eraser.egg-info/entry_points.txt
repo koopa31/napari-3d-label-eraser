@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-3d-label-eraser = napari_3d_label_eraser:napari.yaml

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+napari_3d_label_eraser/__init__.py
+napari_3d_label_eraser/_widget.py
+napari_3d_label_eraser.egg-info/PKG-INFO
+napari_3d_label_eraser.egg-info/SOURCES.txt
+napari_3d_label_eraser.egg-info/dependency_links.txt
+napari_3d_label_eraser.egg-info/entry_points.txt
+napari_3d_label_eraser.egg-info/requires.txt
+napari_3d_label_eraser.egg-info/top_level.txt

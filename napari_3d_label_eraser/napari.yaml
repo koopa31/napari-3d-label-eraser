@@ -1,0 +1,17 @@
+name: napari-3d-label-eraser
+display_name: "3D Label Eraser"
+version: "0.1.0"
+
+contributions:
+  commands:
+    - id: napari-3d-label-eraser.erase_widget
+      title: "Open 3D Label Eraser"
+      python_name: napari_3d_label_eraser._widget:erase_current_label
+
+    - id: napari-3d-label-eraser.register_keybinding
+      title: "Register Keybinding"
+      python_name: napari_3d_label_eraser._widget:register_keybinding
+
+  widgets:
+    - command: napari-3d-label-eraser.erase_widget
+      display_name: "3D Label Eraser"
