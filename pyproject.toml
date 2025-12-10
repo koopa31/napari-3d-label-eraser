@@ -1,6 +1,6 @@
 [project]
 name = "napari-3d-label-eraser"
-version = "0.1.0"
+version = "0.1.1"
 description = "Simple napari plugin to erase the current label value in 3D for an entire Labels volume."
 readme = "README.md"
 requires-python = ">=3.9"
@@ -19,3 +19,13 @@ dependencies = [
 
 [project.entry-points."napari.manifest"]
 napari-3d-label-eraser = "napari_3d_label_eraser:napari.yaml"
+
+[tool.setuptools]
+packages = ["napari_3d_label_eraser"]
+
+[tool.setuptools.package-data]
+"napari_3d_label_eraser" = ["napari.yaml"]
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
