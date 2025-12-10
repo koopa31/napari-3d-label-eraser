@@ -1,4 +1,13 @@
 # napari-3d-label-eraser
+
+[![License GNU GPL v3.0](https://img.shields.io/pypi/l/napari-3d-label-eraser.svg?color=green)](https://github.com/koopa31/napari-3d-label-eraser/raw/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/napari-3d-label-eraser.svg?color=green)](https://pypi.org/project/napari-3d-label-eraser)
+[![Python Version](https://img.shields.io/pypi/pyversions/napari-3d-label-eraser.svg?color=green)](https://python.org)
+[![tests](https://github.com/koopa31/napari-3d-label-eraser/workflows/tests/badge.svg)](https://github.com/koopa31/napari-3d-label-eraser/actions)
+[![codecov](https://codecov.io/gh/koopa31/napari-3d-label-eraser/branch/main/graph/badge.svg)](https://codecov.io/gh/koopa31/napari-3d-label-eraser)
+[![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/napari-3d-label-eraser)](https://napari-hub.org/plugins/napari-3d-label-eraser)
+
+
 A simple tool to erase a selected label across an entire 3D volume in napari.
 
 ## Overview
